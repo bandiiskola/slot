@@ -1,20 +1,28 @@
-#felso, #also{
+#felso, #also {
     width: 100%;
     background-color: black;
     height: 150px;
-    z-index: 2;
+    z-index: 12;
 }
 
-#kozepso{
+#kozepso {
     height: 500px;
-    margin: 0 auto;
+    margin-top: 150px auto;
     display: block;
     width: 614px;
 }
 
-.slot{
+.slot {
     height: 480px;
     border: 1px solid black;
     width: 200px;
-    display: inline;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.kiskep{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
 }
