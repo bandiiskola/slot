@@ -1,4 +1,5 @@
-#felso, #also {
+#felso,
+#also {
     width: 100%;
     background-color: black;
     height: 150px;
@@ -7,7 +8,7 @@
 
 #kozepso {
     height: 500px;
-    margin-top: 150px auto;
+    margin: 6px auto;
     display: block;
     width: 614px;
 }
@@ -20,9 +21,18 @@
     overflow: hidden;
 }
 
-.kiskep{
+.kiskep {
     width: 150px;
     display: block;
     margin: 0 auto;
     padding: 5px;
+    transition: 1s;
+}
+
+#forgat {
+    margin: 0 auto;
+    display: block;
+    font-size: 3em;
+    border-radius: 5px;
+
 }
