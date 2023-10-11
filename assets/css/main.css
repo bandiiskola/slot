@@ -11,6 +11,7 @@
     display: block;
     width: 614px;
     overflow-y: hidden;
+    margin: 25px auto;
 }
 
 .slot {
