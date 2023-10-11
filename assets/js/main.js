@@ -20,10 +20,8 @@ function Berak() {
 
 function Rajzol() {
     for (let i = 0; i < t.length; i++) {
-        var szorzo=1
         for (y of t[i].sorrend) {
-            document.getElementById("s"+(i+1)).innerHTML+="<img class='kiskep' src='assets/images/"+y+".png' style='top: "+(160*szorzo)+"px'>"
-            szorzo++
+            document.getElementById("s"+(i+1)).innerHTML+="<img class='kiskep' src='assets/images/"+y+".png'>"
         }
     }
 }
@@ -33,13 +31,9 @@ Berak()
 function porget() {
     document.getElementById("forgat").disabled=true
 
-    var k = getElementsByClassName("kiskep")
-
-    for (let x of k)
-    {
-        x.style.mar
-    }
-
+    document.getElementById("s1").getElementsByClassName("kiskep")[0].style.marginTop="-160px"
+    document.getElementById("s2").getElementsByClassName("kiskep")[0].style.marginTop="-160px"
+    document.getElementById("s3").getElementsByClassName("kiskep")[0].style.marginTop="-160px"
 
     //document.getElementById("forgat").disabled=false
 }
